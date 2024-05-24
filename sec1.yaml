@@ -1,3 +1,4 @@
 token= 'abcdefghijkl'
 github_personal_access_token= ghp_abc123def456ghi789jkl012mno345pqr678
 ghp_abc123def456ghi789jkl012mno345pqr678
+r = requests.get(url, headers=headers, verify=True) # set verify to False if ssl cert is self-signed
