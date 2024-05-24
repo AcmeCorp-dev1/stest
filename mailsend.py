@@ -1,6 +1,6 @@
 import json
 import requests
-import sys
+import sys 
 import smtplib
 url = 'http://3.144.2.26:8080/api/v2/findings/?'
 headers = {'content-type': 'application/json',
