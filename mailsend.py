@@ -40,6 +40,7 @@ if count_high > 2:
     #s.connect('email-smtp.us-east-1.amazonaws.com', 587)
     s.starttls()
     s.login('AKIAWVM3U6DD6PPTNVVU', 'BAnvfly44m17RnmWbQvT2bq0BCES+tQrjZrGf/Pz5ITI')
+    AmazonSecretKey: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
     msg = 'From: mukeshit100@gmail.com\nTo: mukeshkumar7@kpmg.com\nSubject: BUILD_ID\n\n Report has High severity please fix as soon as possible'
     s.sendmail('mukeshit100@gmail.com','mukeshkumar7@kpmg.com', msg)
